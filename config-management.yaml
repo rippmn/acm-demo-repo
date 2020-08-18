@@ -12,5 +12,4 @@ spec:
     syncBranch: "master"
     secretType: none # no auth
     policyDir: "acm"
-"
 
