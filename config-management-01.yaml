@@ -12,4 +12,6 @@ spec:
     #syncBranch: "master"
     secretType: ssh # no auth
     policyDir: "acm"
+  policyController:
+    enabled: true
 
