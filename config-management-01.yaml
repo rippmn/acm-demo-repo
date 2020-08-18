@@ -6,10 +6,10 @@ metadata:
   name: config-management
 spec:
   # clusterName is required and must be unique among all managed clusters
-  clusterName: acm-demo
+  clusterName: acm-demo-01
   git:
     syncRepo: git@github.com:theemadnes/acm-demo-repo.git
     #syncBranch: "master"
-    secretType: "none" # no auth
+    secretType: ssh # no auth
     policyDir: "acm"
 
