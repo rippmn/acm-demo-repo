@@ -9,7 +9,6 @@ spec:
   clusterName: gke_alexmattson-scratch_us-central1_acm-demo
   git:
     syncRepo: git@github.com:theemadnes/acm-demo-repo.git
-    syncBranch: "master"
+    #syncBranch: "master"
     secretType: none # no auth
     policyDir: "acm"
-
