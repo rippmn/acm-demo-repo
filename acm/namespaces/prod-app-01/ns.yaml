@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: prod-app-01
   annotations:
-      configmanagement.gke.io/cluster-selector: selector-env-asm
+    configmanagement.gke.io/cluster-selector: selector-env-prod
