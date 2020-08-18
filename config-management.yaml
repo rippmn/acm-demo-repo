@@ -10,6 +10,6 @@ spec:
   git:
     syncRepo: git@github.com:theemadnes/acm-demo-repo.git
     #syncBranch: "master"
-    secretType: none # no auth
+    secretType: "none" # no auth
     policyDir: "acm"
 
